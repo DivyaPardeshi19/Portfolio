@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya Sunil Pardeshi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+<nav class="navbar">
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Cursor Blob -->
+  <div id="cursor-blob"></div>
+
+
+<section id="hero" class="hero section">
+  <!-- Floating shapes -->
+  <div class="floating-shapes">
+    <span class="shape circle" style="top:20%; left:10%; width:40px; height:40px;"></span>
+    <span class="shape triangle" style="top:60%; left:80%; width:50px; height:50px;"></span>
+    <span class="shape blob" style="top:40%; left:50%; width:70px; height:70px;"></span>
+    <span class="shape circle" style="top:75%; left:30%; width:30px; height:30px;"></span>
+  </div>
+
+  <div class="container">
+    <h1 class="hero-title">
+      <span>Divya</span> <span>Sunil</span> <span>Pardeshi</span>
+    </h1>
+    <p class="hero-subtitle">
+      MERN Stack Developer | UI/UX Enthusiast | Making Web Experiences Delightful
+    </p>
+
+     <!-- Resume Button -->
+    <a href="resume.pdf" class="resume-btn"> Resume</a>
+  </div>
+
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator"><span></span></div>
+</section>
+
+
+
+  <!-- ABOUT SECTION -->
+ <section id="about" class="about-section">
+  <h2 class="section-title">/ About me</h2>
+
+  <div class="about-container">
+    
+    <div class="about-text">
+      <p>
+        I am a passionate <strong>MERN Stack Developer</strong> focused on 
+        creating smooth, interactive, and user-friendly digital experiences. 
+        I love building clean UI, adding subtle micro-interactions, and turning 
+        ideas into polished web products.
+      </p>
+
+      <p>
+        I enjoy solving problems, learning new technologies, and improving my 
+        craft every day. My interests lie in frontend creativity, backend logic, 
+        and blending both to build meaningful projects.
+      </p>
+
+      <p>
+        Outside of coding, I love exploring design trends, watching tech content, 
+        and working on projects that inspire me.
+      </p>
+    </div>
+
+    <div class="about-img-wrapper">
+      <img src="zme.jpg" alt="Divya Pardeshi" class="about-img" />
+    </div>
+
+  </div>
+</section>
+
+  <!-- SKILLS SECTION -->
+<section id="skills" class="skills section">
+  <div class="container skills-container">
+    <h2 class="section-tag">/ Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-box reveal">UI / UX</div>
+      <div class="skill-box reveal">Node.js</div>
+      <div class="skill-box reveal">MongoDB</div>
+      <div class="skill-box reveal">JavaScript (ES6+)</div>
+      <div class="skill-box reveal">Express.js</div>
+      <div class="skill-box reveal">React.js</div>
+      <div class="skill-box reveal">Git & GitHub</div>
+      <div class="skill-box reveal">Tailwind CSS</div>
+
+    </div>
+  </div>
+</section>
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects section">
+  <div class="container project-container">
+    <h2 class="section-tag">/ Projects</h2>
+
+    <div class="project-list">
+
+     <div class="project reveal" data-magnet>
+        <h3>🌐 My Portfolio</h3>
+        <p><i>Responsive personal portfolio with animations, micro-interactions, and custom cursor.</i></p>
+      </div>
+
+      <div class="project reveal" data-magnet>
+        <h3>🗺️ Wanderlust</h3>
+        <p>Login / Signup system to book travel location with JWT, bcrypt, validation, and protected routes.</p><br>
+        <a href="https://wanderlust-ad0q.onrender.com/listings"><p class="link"><b>Link...</b></p></a>
+      </div>
+
+      <div class="project reveal" data-magnet>
+        <h3>💰Expense Tracker</h3>
+        <p><i>A full-featured MERN app to record, filter, and visualize daily expenses and income.</i></p><br>
+        <a href="https://expense-tracker-production-72d8.up.railway.app/"><p class="link"><b>Link...</b></p></a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact section">
+  <div class="container contact-container">
+    <h2 class="section-tag">/ Contact</h2>
+
+    <div class="contact-info">
+       <p><span><b>Linkdin:</b></span> Divya Pardeshi</p>
+      <p><span><b>Github:</b></span> DivyaPardeshi19</p>
+      <p><span><b>Email:</b></span> divyapardeshi999@gmail.com</p>
+
+      <br><br>
+
+      <p>Let's connect and build something amazing together ✨</p>
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="footer">
+      <p><small>Built & designed by Divya Pardeshi.</small></p>
+      <p><small>all rights reserved. ©</small></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
